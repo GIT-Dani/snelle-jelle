@@ -25,7 +25,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/dani/Projects/RaceSimulator/Model/Model.csproj": {
+                "projectPath": "/Users/dani/Projects/RaceSimulator/Model/Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

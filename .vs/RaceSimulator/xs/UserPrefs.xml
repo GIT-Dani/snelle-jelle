@@ -1,10 +1,17 @@
 ﻿<Properties StartupConfiguration="{9D9FBE2B-C362-40B6-8F53-68A2934C088C}|Default">
   <MonoDevelop.Ide.ItemProperties.Console FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controller/Data.cs">
+    <Files>
+      <File FileName="Controller/Data.cs" Line="3" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node />
+          <Node name="RaceSimulator" expanded="True">
+            <Node name="Controller" expanded="True">
+              <Node name="Data.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

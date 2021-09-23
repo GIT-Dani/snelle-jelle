@@ -1229,11 +1229,24 @@
       "Controller/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Model": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Controller.dll": {}
         },
         "runtime": {
           "bin/placeholder/Controller.dll": {}
+        }
+      },
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
         }
       }
     }
@@ -4628,12 +4641,18 @@
       "type": "project",
       "path": "../Controller/Controller.csproj",
       "msbuildProject": "../Controller/Controller.csproj"
+    },
+    "Model/1.0.0": {
+      "type": "project",
+      "path": "../Model/Model.csproj",
+      "msbuildProject": "../Model/Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Controller >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
+      "Model >= 1.0.0",
       "NUnit >= 3.12.0",
       "NUnit3TestAdapter >= 3.16.1"
     ]
@@ -4665,6 +4684,9 @@
           "projectReferences": {
             "/Users/dani/Projects/RaceSimulator/Controller/Controller.csproj": {
               "projectPath": "/Users/dani/Projects/RaceSimulator/Controller/Controller.csproj"
+            },
+            "/Users/dani/Projects/RaceSimulator/Model/Model.csproj": {
+              "projectPath": "/Users/dani/Projects/RaceSimulator/Model/Model.csproj"
             }
           }
         }
