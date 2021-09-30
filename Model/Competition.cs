@@ -5,11 +5,12 @@ namespace Model
 {
     public class Competition
     {
-        public List<Participant> Participants { get; set; }
+        public List<IParticipant> Participants { get; set; }
         public Queue<Track> Tracks { get; set; }
+
         public Competition()
         {
-
+            Participants = new List<IParticipant>();
         }
     }
 }

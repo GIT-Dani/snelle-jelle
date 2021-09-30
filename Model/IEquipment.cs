@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Model
 {
-    public interface Equipment
+    public interface IEquipment
     {
         public int Quality { get; set; }
         public int Performance { get; set; }

@@ -5,10 +5,11 @@ namespace Model
 {
     public class Track
     {
-        public string Name { get; set; }
-        public LinkedList<Section> Sections { get; set; }
-        public Track(string Name, SectionTypes[] Sections)
+        public string name { get; set; }
+        public LinkedList<Section> sections { get; set; }
+        public Track(string name, SectionTypes[] sections)
         {
+
         }
     }
 }
