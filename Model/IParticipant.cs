@@ -10,4 +10,5 @@ namespace Model
         public IEquipment Equipment { get; set; }
         public TeamColor TeamColor { get; set; }
     }
+
 }

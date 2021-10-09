@@ -11,6 +11,7 @@ namespace Controller
         {
             Competition = new Competition();
             AddParticipants();
+            AddTracks();
         }
 
         public static void AddParticipants()
